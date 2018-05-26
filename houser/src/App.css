@@ -1,0 +1,52 @@
+.box1{
+  background-image: url("https://amp.businessinsider.com/images/5ad0d230146e711a008b4873-750-563.jpg");
+  height: 1200px;
+  width: auto;
+  margin: auto;
+}
+
+.box2{
+  background: yellow;
+  height: 400px;
+  width: 400px;
+  padding: 100px 100px 100px 100px;
+  position: absolute;
+   display: inline-block;
+  margin: right;
+  font: bold;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;}
+
+  .box2:hover{
+    width: 5000px;
+  }
+
+  
+
+
+#box3  {
+  color: black;
+  font-size: 100px;
+   font-weight: 100px; 
+  float: left; 
+  margin: 100px 100px;
+  
+  animation-name: spinner;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  transform-style: preserve-3d;
+
+}
+@keyframes spinner {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+   transform: rotateY(-360deg);
+  } 
+}  
+  
+
